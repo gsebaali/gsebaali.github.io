@@ -10306,13 +10306,13 @@ body {
 }
 
 .signup-section {
-  padding: 10rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  padding: 2rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 0%, #ffffff 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-}
+ }
 .signup-section .form-inline input {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 2rem;
@@ -10322,6 +10322,32 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   border: 0;
+}
+
+.signup-section .social-links {
+    display: flex;
+    justify-content: center;
+    padding: var(--gutter-normal) 0;
+    list-style: none;
+}
+
+.signup-section .social-link-item:not(:last-of-type) {
+    margin-right: var(--gutter-small);
+}
+
+.signup-section .social-image {
+    height: 4rem;
+}
+
+.signup-section .github-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.signup-section .github-buttons iframe {
+    height: 2.5rem;
+    width: 84px;
+    transform: translateY(3px);
 }
 
 .contact-section {
@@ -10362,5 +10388,5 @@ body {
 }
 
 .footer {
-  padding: 5rem 0;
+  padding: var(--gutter-medium) 0 var(--gutter-normal);
 }
