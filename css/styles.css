@@ -209,6 +209,7 @@ svg {
 
 table {
   border-collapse: collapse;
+  
 }
 
 caption {
@@ -231,6 +232,8 @@ label {
 button {
   border-radius: 0;
 }
+
+
 
 button:focus {
   outline: 1px dotted;
@@ -393,6 +396,12 @@ h6, .h6 {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 .display-1 {
   font-size: 6rem;
