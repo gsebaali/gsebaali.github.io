@@ -211,6 +211,8 @@ table {
   border-collapse: collapse;
 }
 
+
+
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -434,7 +436,7 @@ small,
 mark,
 .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #64a19d;
 }
 
 .list-unstyled {
@@ -1689,7 +1691,6 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
 }
 .table thead th {
   vertical-align: bottom;
@@ -4071,6 +4072,7 @@ input[type=button].btn-block {
   align-items: center;
   justify-content: space-between;
 }
+
 .navbar-brand {
   display: inline-block;
   padding-top: 0.3125rem;
