@@ -10279,6 +10279,14 @@ body {
   }
 }
 
+.scroll
+{
+   position: fixed;
+    bottom: 0;
+    width: 80%;
+}
+
+
 .about-section {
   padding-top: 10rem;
   background: #fff;
