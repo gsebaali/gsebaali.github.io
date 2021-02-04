@@ -49,6 +49,53 @@
             $("#mainNav").removeClass("navbar-shrink");
         }
     };
+
+
+	//carrousel
+
+
+
+var animateRecursive = function () {
+
+    var photobanner = $(".photobanner");
+    
+    /**
+     * 1. Always get the first child from .photobanner
+     */
+    var elem = photobanner.children().first();
+
+    /**
+     * 2. Append it to .photobanner as last element a cloned version of your 'elem'
+     */
+    photobanner.append(elem.clone());
+
+    /**
+     * 3. Animate it to go to the left and adjust duration
+     */
+    elem.stop(true, true).animate({
+        marginLeft: (-1 * elem.outerWidth()) + 'px'
+    }, {
+        duration: 1000,
+        easing: 'linear',
+        complete: function () {
+
+            /**
+             * 4. Remove the hidden element to keep .photobanner clean
+             */
+            elem.remove();
+
+            /**
+             * 5. Repeat
+             */
+            animateRecursive();
+
+        }
+    });
+
+};
+
+animateRecursive();
+
     // Collapse now if page is not at top
     navbarCollapse();
     // Collapse the navbar when page is scrolled
