@@ -75,7 +75,7 @@ var animateRecursive = function () {
     elem.stop(true, true).animate({
         marginLeft: (-1 * elem.outerWidth()) + 'px'
     }, {
-        duration: 1000,
+        duration: 2000,
         easing: 'linear',
         complete: function () {
 
