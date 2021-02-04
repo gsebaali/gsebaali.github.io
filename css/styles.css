@@ -386,6 +386,8 @@ h4, .h4 {
 
 h5, .h5 {
   font-size: 1.25rem;
+  
+  
 }
 
 h6, .h6 {
@@ -445,6 +447,7 @@ mark,
   padding: 0.2em;
   background-color: #64a19d;
 }
+
 
 .list-unstyled {
   padding-left: 0;
@@ -555,6 +558,30 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+
+.carrosel {
+    width: 100%;
+    overflow: hidden;
+    margin: 5px auto;
+    background: white;
+}
+
+
+.photobanner {
+    height: 120px;
+    width: 750px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.photobanner img {
+    height: 120px;
+    width: 120px;
+}
+
+
+
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
