@@ -568,11 +568,14 @@ pre code {
 
 
 .photobanner {
-    height: 120px;
+    height: 120px; 
     width: 750px;
     overflow: hidden;
     white-space: nowrap;
 }
+
+
+
 
 .photobanner img {
     height: 100px;
@@ -580,6 +583,17 @@ pre code {
 }
 
 
+.cert {
+    height: 120px; 
+    width: 750px;
+    overflow: hidden;
+   
+}
+
+.cert img {
+    height: 100px;
+    width: 100px;
+}
 
 
 @media (min-width: 576px) {
@@ -10296,13 +10310,13 @@ body {
     padding: 0;
   }
   .masthead h1 {
-    font-size: 4rem; --my name
-    line-height: 6.5rem;
-    letter-spacing: 0.5rem;
+    font-size: 2.5rem; --my name
+    line-height: 6rem;
+    letter-spacing: 0.2rem;
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.9rem;
+    font-size: 1.5rem;
   }
 }
 
